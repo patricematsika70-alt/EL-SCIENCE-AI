@@ -1,18 +1,21 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>EL SCIENCE AI</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <h1>EL SCIENCE AI</h1>
 <p>Biology • Chemistry • Physics</p>
-<div id="bannerAd"></div>
-<div id="chatbox"></div>
-<input id="userInput" placeholder="Ask a science question..." />
-<button onclick="ask()">Send</button>
-<button onclick="downloadNotes()">Download</button>
-<script src="science.js"></script>
+
+<div id="chat"></div>
+
+<input type="text" id="userInput" placeholder="Ask a science question..." />
+<button onclick="sendMessage()">Send</button>
+<button onclick="downloadChat()">Download</button>
+
 <script src="script.js"></script>
 </body>
 </html>
